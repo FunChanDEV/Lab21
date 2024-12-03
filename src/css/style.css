@@ -1,0 +1,348 @@
+
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(../font/JetBrainsMono.ttf) format('truetype');
+}
+
+.container {
+    background-color: rgb(3, 4, 24);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    height: 150px;
+    background-color: rgb(3, 4, 24);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    background-color: rgb(85, 65, 65);
+    width: 150px;
+}
+
+
+.header>.buttons {
+    flex: 0.8;
+}
+
+
+.logo img {
+ width: 100%;
+}
+
+
+.header>.title {
+    flex: 0.2;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: 'JetBrains Mono';
+    font-weight: 900;
+    font-size: 35pt;
+    color: wheat;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    font-family: 'JetBrains Mono';
+    font-size: 24pt;
+    text-decoration: none;
+    border: solid;
+    padding: 5px;
+    border-color: black;
+    background-color: black;
+    color: wheat;
+}
+
+.button a:hover {
+    border: solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+.mini-button {
+    width: 120px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-button img {
+    width: 60%;
+}
+
+.mini-button img:hover {
+    border: solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+
+.aboutschool {
+    height: 400px;
+    background-color: rgba(90, 0, 71, 0.308);
+    margin-bottom: 20px;
+    padding: 25px;
+    background-image: url(../img/background-aboutschool.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 900px;
+}
+
+
+.aboutschool p {
+    color: bisque;
+    font-size: 20pt;
+    font-family: 'JetBrains Mono';
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.aboutschool ul {
+    list-style-type:circle;
+}
+
+.aboutschool li {
+    color: bisque;
+    font-size: 14pt;
+    font-family: 'JetBrains Mono';
+}
+
+.aboutschool .under-about {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.list-course {
+    height: 100px;
+    background-color: rgb(30, 32, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-course h2 {
+    color: rgb(240, 137, 11);
+    font-size: 30pt;
+    font-family: 'JetBrains Mono';
+    padding: 5px;
+    border-style: solid;
+}
+
+.cards-container {
+    height: 800px;
+    background-color: rgb(30, 32, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-image: url(../img/logo-png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-size: contain;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards-row>.cards {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(15, 16, 32, 0.603);
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.cards .image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.cards .text {
+    background-color: rgb(48, 63, 58);
+    width: 100%;
+    flex: 0.7;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text p {
+    color: bisque;
+    font-size: 14pt;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+}
+
+.cards .order {
+    width: 50%;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 24pt;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4px;
+    transition: border-width 0.6s linear;
+    transition: border-color 0.6s linear;
+    font-family: 'JetBrains Mono';
+}
+
+.order a:hover {
+    border-color: rgb(194, 6, 231);
+    transition: border-width 0.6s linear;
+    transition: border-color 0.6s linear;
+}
+
+
+.contacts {
+    padding: 25px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-form {
+    background-color: #2c2f5c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'JetBrains mono';
+    color: bisque;
+  }
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e416c;
+    color: #f0f0f0;
+    font-size: 14px;
+  }
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
+
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #603acf;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+.social {
+    height: 200px;
+    background-color: rgb(44, 0, 2);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social .cards {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social>.cards-contact {
+    width: 500px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.social>.cards img {
+    width: 100%;
+}
+
+.cards-contact a,p {
+    text-decoration: none;
+    color:beige;
+    font-family: 'JetBrains mono';
+}
+
+.cards-contact a {
+    color: #00a2ff;
+}

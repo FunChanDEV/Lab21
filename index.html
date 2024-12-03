@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Онлайн-школа программирования "CodeMaster"</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href=""><img src="src/img/logo.png" alt="" /></a>
+        </div>
+        <div class="title">
+          <h1>CodeMasters</h1>
+        </div>
+        <div class="buttons">
+          <div class="button">
+            <a href="">Главная</a>
+          </div>
+          <div class="button">
+            <a href="">О нас</a>
+          </div>
+          <div class="button">
+            <a href="">Курсы</a>
+          </div>
+          <div class="mini-button">
+            <img src="src/img/login.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="aboutschool">
+        <p>
+          &emsp;&emsp;Добро пожаловать в
+          <span class="bold">Code Masters</span> — вашу платформу для изучения
+          программирования с нуля или улучшения уже имеющихся навыков! Наша
+          онлайн-школа создана для всех, кто хочет освоить самые востребованные
+          технологии в IT, будь вы студент, профессионал или просто энтузиаст.
+        </p>
+        <p><span class="bold">Почему выбирают нас?</span></p>
+        <ul>
+          <li>
+            <span class="bold">Пошаговое обучение:</span> Курсы разбиты на
+            понятные модули, которые помогут вам легко усваивать материал.
+          </li>
+          <li>
+            <span class="bold">Практическая направленность:</span> Каждое
+            занятие включает задачи и проекты, которые можно добавить в своё
+            портфолио.
+          </li>
+          <li>
+            <span class="bold">Поддержка наставников:</span> Наши преподаватели
+            всегда готовы помочь вам разобраться в сложных темах.
+          </li>
+          <li>
+            <span class="bold">Гибкость обучения:</span> Занимайтесь в удобное
+            для вас время, на любом устройстве.
+          </li>
+        </ul>
+        <p class="under-about">
+          Наши студенты уже работают в крупных IT-компаниях, а кто-то начал свой
+          собственный стартап. Присоединяйтесь к нам и становитесь мастером
+          кода!
+        </p>
+      </div>
+      <div class="list-course">
+        <h2>Курсы</h2>
+      </div>
+      <div class="cards-container">
+        <div class="cards-row">
+          <div class="cards">
+            <div class="image">
+              <img src="src/img/courses/python.png" alt="" />
+            </div>
+            <div class="text">
+              <p>
+                Узнайте основы программирования и научитесь работать с данными
+              </p>
+            </div>
+            <div class="order"><a href="#">Подробнее</a></div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="src/img/courses/web.png" alt="" />
+            </div>
+            <div class="text">
+              <p>
+                Создавайте адаптивные сайты с использованием HTML, CSS и
+                JavaScript
+              </p>
+            </div>
+            <div class="order"><a href="#">Подробнее</a></div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="src/img/courses/c.png" alt="" />
+            </div>
+            <div class="text">
+              <p>
+                Освойте системное программирование и научитесь работать с
+                памятью
+              </p>
+            </div>
+            <div class="order"><a href="#">Подробнее</a></div>
+          </div>
+        </div>
+        <div class="cards-row">
+          <div class="cards">
+            <div class="image">
+              <img src="src/img/courses/C++.png" alt="" />
+            </div>
+            <div class="text">
+              <p>
+                Изучите ООП, шаблоны и создавайте высокопроизводительные
+                приложения
+              </p>
+            </div>
+            <div class="order"><a href="#">Подробнее</a></div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="src/img/courses/java.png" alt="" />
+            </div>
+            <div class="text">
+              <p>
+                Разрабатывайте приложения для веба, десктопа и мобильных
+                устройств
+              </p>
+            </div>
+            <div class="order">
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="image"><img src="src/img/courses/ae.png" alt="" /></div>
+            <div class="text">
+              <p>Создавайте эффектные анимации и видеографику с нуля</p>
+            </div>
+            <div class="order"><a href="#">Подробнее</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="contact-form">
+          <h2>Записаться на курс</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Введите ваше имя"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Ваш email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Введите ваш email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Введите ваше сообщение"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="social">
+        <div class="cards">
+          <a href="#"><img src="src/img/social/tg.png" alt="" /></a>
+        </div>
+        <div class="cards">
+          <a href="#"><img src="src/img/social/vk.png" alt="" /></a>
+        </div>
+        <div class="cards">
+          <a href="#"><img src="src/img/social/wechat.png" alt="" /></a>
+        </div>
+        <div class="cards-contact">
+          <p>
+            <span class="bold">Основной офис:</span> Адрес: г. Москва, ул.
+            Программистов, д. 10, офис 101
+          </p>
+          <p>
+            <span class="bold">Телефон:</span>
+            <a href="tel:+71234567">📞 +7 (495) 123-45-67</a>
+          </p>
+          <p>
+            <span class="bold">Электронная почта:</span> 📧
+            <a href="mailto:support@codemasters.ru">support@codemasters.ru</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
