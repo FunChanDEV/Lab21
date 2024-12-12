@@ -346,3 +346,87 @@ body {
 .cards-contact a {
     color: #00a2ff;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header .logo {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .header .title h1 {
+        font-size: 25pt;
+    }
+
+    .header .buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    .aboutschool {
+        padding: 15px;
+        background-size: cover;
+    }
+
+    .aboutschool p {
+        font-size: 16pt;
+    }
+
+    .list-course h2 {
+        font-size: 24pt;
+    }
+
+    .cards-container {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .cards-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-row > .cards {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .contacts {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .social {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .social .cards {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social > .cards-contact {
+        width: 90%;
+        text-align: center;
+    }
+}
